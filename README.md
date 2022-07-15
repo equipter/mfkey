@@ -23,6 +23,7 @@ Mfkey32v2 works by two partial authentications.
 command syntax for mfkey32v2 is `./mfkey32v2 <uid> <nt> <nr_0> <ar_0> <nt1> <nr_1> <ar_1>`
 example: UID `939be0d5`
 syntax: `./mfkey32v2 939be0d5 4e70d691 b3a576be 02c1559b c6efb126 d24dd966 03fc7386`
+
 mfkey32v2 works by using an alternative method for nonce cracking
 
 Mfkey32 works by two 32 bits of keystream authentication.
