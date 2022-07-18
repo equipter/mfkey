@@ -6,7 +6,7 @@
 Mfkey32v2 extracts keys from nonces collected during the authentication process. These nonces can be collected by emulating the credential to allow the reader to begin despensing the necessary information to begin extraction.
 ## Acknowledgements
 
- - [Mfkey Base Code](https://github.com/rfidresearchgroup/proxmark3)
+ - [rfidresearchgroup Base Code](https://github.com/rfidresearchgroup/proxmark3)
  - [Bettse for assisting in development](https://gitlab.com/bettse)
  
  ## Requirements 
