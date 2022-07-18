@@ -17,18 +17,21 @@
 
 now that youve compiled youre ready to use!
 
-## Usage
+## Mfkey32v2 usage
+Mfkey32v2 works by two sets of 32 bit keystream authentication and is different to mfkey32 in the way it uses an alternate calculation method to generate the key 
 
-Mfkey32v2 works by two partial authentications.
 command syntax for mfkey32v2 is `./mfkey32v2 <uid> <nt> <nr_0> <ar_0> <nt1> <nr_1> <ar_1>`
+  
 example: UID `939be0d5`
+  
 syntax: `./mfkey32v2 939be0d5 4e70d691 b3a576be 02c1559b c6efb126 d24dd966 03fc7386`
 
-mfkey32v2 works by using an alternative method for nonce cracking
+## Mfkey32 usage
+Mfkey32 works by two sets of 32 bits of keystream authentication.
 
-Mfkey32 works by two 32 bits of keystream authentication.
 command syntax for mfkey32 is `./mfkey32 <uid> <nt> <nr_0> <ar_0> <nr_1> <ar_1>`
 
+## Mfkey64 usage
+Mfkey64 works on one complete 64 bit keystream authentication. 
 
-Mfkey64 works on one complete authentication.
 command syntax for mfkey64 is `./mfkey64 <uid> <nt> <{nr}> <{ar}> <{at}> [enc...]`
