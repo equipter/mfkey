@@ -21,7 +21,10 @@ GCC for compiling C (deb)
 - `git clone https://github.com/equipter/mfkey`
 3. Navigate into repo directory 
 - `cd mfkey/`
-4. Compile chosen mfkey.
+4. Compile using `make` or self compile your specific chosen mfkey version. 
+* `make` to make all 3 
+
+or
 * mfkey32v2: `gcc mfkey32v2.c crypto1/crypto1.c crypto1/crypto01.c crypto1/bucketsort.c -o mfkey32v2 -Iinclude`
 * mfkey32: `gcc mfkey32.c crypto1/crypto1.c crypto1/crypto01.c crypto1/bucketsort.c -o mfkey32 -Iinclude`
 * mfkey64: `gcc mfkey64.c crypto1/crypto1.c crypto1/crypto01.c crypto1/bucketsort.c -o mfkey64 -Iinclude`
